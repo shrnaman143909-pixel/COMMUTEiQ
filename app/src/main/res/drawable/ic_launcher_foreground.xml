@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Connecting intelligent transit route lines -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M32,74 L46,46 L62,56 L76,34" />
+
+    <!-- Secondary transit loop -->
+    <path
+        android:strokeColor="#818CF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M34,42 L54,32 L74,68" />
+
+    <!-- Station nodes -->
+    <!-- Start node -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M32,74m-4.5,0a4.5,4.5 0 1,0 9,0a4.5,4.5 0 1,0 -9,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,74m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+
+    <!-- Mid node 1 -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M46,46m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0" />
+
+    <!-- Mid node 2 -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M62,56m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0" />
+
+    <!-- Target destination beacon / pulse -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:pathData="M76,34m-9,0a9,9 0 1,0 18,0a9,9 0 1,0 -18,0" />
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M76,34m-5,0a5,5 0 1,0 10,0a5,5 0 1,0 -10,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M76,34m-2.2,0a2.2,2.2 0 1,0 4.4,0a2.2,2.2 0 1,0 -4.4,0" />
+
+    <!-- CommuteIQ intelligence radar beam -->
+    <path
+        android:strokeColor="#E0F2FE"
+        android:strokeWidth="1.2"
+        android:pathData="M54,54m-24,0a24,24 0 1,0 48,0a24,24 0 1,0 -48,0" />
+</vector>

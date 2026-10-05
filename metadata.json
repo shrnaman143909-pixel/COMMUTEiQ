@@ -1,0 +1,7 @@
+{
+  "name": "CommuteIQ",
+  "description": "AI-Powered Personal Commute Intelligence Platform for smart transit recommendation, scoring and journey navigation",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
